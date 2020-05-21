@@ -3,10 +3,14 @@
     <head>
         <title>Created By Hema</title>
         <script type="text/javascript" src="ielts-score-calculator.js"></script>
+        <link rel="stylesheet" type="text/css" href="ielts-score-calculator.css">
     </head>
     <body>
+        <div class="header-style">
         <h1>IELTS SCORE CALCULATOR</h1>
-        <table>
+        </div>
+        <div>
+        <table class="ielts-table">
             <tr>
                 <td><label>Enter Speaking Score</label></td>
                 <td><input type="text" id = "speakingtextbox" name = "speaking"></td>
@@ -27,13 +31,13 @@
                 <td><label>Ielts Overall Score</label></td>
                 <td><input type="text" id = "overallscoretextbox" name = "overallscore"></td>
             </tr>
-            <div></div>
+        
             <tr>
-                <td><input type="submit" id = "resultsbutton" value="RESULTS"></td>
-            </tr>
-            <tr>
+                <td><input type="submit" id = "resultsbutton" value="RESULTS" onclick="ieltsCalculator()"></td>
                 <td><input type="submit" id = "clearbutton" value="CLEAR"></td>
             </tr>
+            </div>
         </table>
+        <div id="displaymessage"></div>
     </body>
 </html>
