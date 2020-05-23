@@ -15,3 +15,11 @@ function ieltsCalculator()
         document.getElementById("displaymessage").innerHTML = "Please enter valid input";
     }
 }
+function clearValues()
+{
+    document.getElementById("speakingtextbox").value = "";
+    document.getElementById("writingtextbox").value = "";
+    document.getElementById("listeningtextbox").value = "";
+    document.getElementById("readingtextbox").value = "";
+    document.getElementById("overallscoretextbox").value = "";
+}
