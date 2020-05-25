@@ -1,8 +1,14 @@
 .header-style{
     color: red;
-    text-align: center;  
+    text-align: center;
+    margin-bottom: 200px;
+    
 }
 body
 {
     background-image: url('ieltsimages.jpg');
+}
+.ielts-table{
+    margin-left: 600px;
+    margin-right: 600px;
 }
